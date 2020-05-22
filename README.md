@@ -1,7 +1,13 @@
 # eARs-Dapper
 Exemplo com uso de Dapper para Repository
 
-## BD
+## Package
+
+```
+  Install-Package Dapper
+```
+
+## Banco de Dados
 
 ```tsql
   CREATE DATABASE [BDSamples];
