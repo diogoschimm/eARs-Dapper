@@ -1,0 +1,24 @@
+﻿@using eARs.Domain;
+@model IEnumerable<Provedor>;
+
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Polos</h1>
+    <table class="table table-bordered table-striped">
+        <tr>
+            <th>ID</th>
+            <th>Nome</th>
+        </tr>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.IdProvedor </td>
+                <td>@item.NomeProvedor </td>
+            </tr>
+        } 
+
+    </table>
+</div>
